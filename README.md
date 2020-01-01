@@ -40,16 +40,25 @@ The full discussion of my project and code are in the attached notebook. There I
 
 # What's Inside:
 
-Sparkify.html : Jupyter Notebook with code running on my local machine with a small subset of the total dataset. This code was used to explore and clean the data and tryout engineering the features before moving to the AWS cluster.
+Sparkify.html : an HTML file for the jupyter workbook
 
-Sparkify.ipynb: Jupyter Notebook with code for running on the AWS cluster. This is the same Jupyter notebook which is available in .html format and does not contains the complete dataset. This notebook has used sample dataset for analysis and modeling.
+Sparkify.ipynb: The main coding file in jypyter notebook format to work in Udacity workspace. This is the same Jupyter notebook which is available in .html format and does not contains the complete dataset to run on AWS server. This notebook has used sample dataset for analysis and modeling.
 
-Credits
+# Credits:
 
 I relied on three main references during this project:
 
 1. The Apache Spark documentation and examples for linear regression
 2. Online discussion fourms like stackoverflow.com
+3. Course material at Udacity has been used for reference. On top of that, the official pySpark documentation has also been used ( https://spark.apache.org/docs/latest/api/python/index.html )
+
+# Used resources:
+
+  - Python 3.6.x (The programing language)
+   - pySpark 2.4.x (Machine learning library for big data)
+   - matplotlib 3.03 (A plotting library)
+   - pandas 0.23 (numerical calculations library)
+   - jupyter (The programming notebook interface)
 
 # Libraries Used:
 
